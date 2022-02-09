@@ -1,2 +1,2 @@
 # snappy_pas
-Pascal port from https://github.com/andikleen/snappy-c
+This is a Pascal port of the google snappy compressor 
