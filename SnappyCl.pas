@@ -99,8 +99,8 @@ begin
           end;
           // System.arraycopy(in, sourceIndex, outBuffer, targetIndex, l);
           Move(InputA[SourceIndex], OutputA[targetIndex], l);
-          inc(SourceIndex);
-          inc(targetIndex);
+          inc(SourceIndex, l);
+          inc(targetIndex, l);
         end;
       1:
         begin
